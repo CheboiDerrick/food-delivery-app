@@ -1,0 +1,114 @@
+            hr {
+                height: 1px;
+                background-color: crimson;
+            }
+            
+            h4 {
+                color: red;
+                font-size: 300%;
+            }
+            
+            #navbardrop {
+                color: red;
+            }
+            
+            .carousel-caption h1 {
+                color: rgb(248, 242, 242);
+                text-align: center;
+                font-family: Helvetica;
+            }
+            
+            .carousel-caption p {
+                color: rgb(252, 252, 252);
+                font-weight: 700;
+                margin-top: -10;
+                font-family: Helvetica;
+            }
+            
+            .list {
+                font-family: Helvetica, sans-serif;
+            }
+            
+            h3 {
+                text-align: center;
+                color: black;
+                text-decoration-line: underline;
+            }
+            
+            .h4 {
+                text-align: center;
+            }
+            
+            #icons {
+                background-color: black;
+            }
+            
+            #icons img {
+                margin-top: 45px;
+            }
+            
+            #aboutus {
+                text-align: center;
+            }
+            
+            h5 {
+                color: red;
+            }
+            
+            .card-title {
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            
+            .card-text {
+                text-align: center;
+            }
+            
+            .card-body a {
+                align-items: center;
+                margin-left: 75px;
+            }
+            
+            .img-fluid {
+                margin-top: 50px;
+            }
+            
+            h2 {
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            
+            #footer {
+                background-color: black;
+                color: white;
+            }
+            
+            #hot {
+                margin-top: 50px;
+            }
+            
+            #location {
+                text-align: center;
+            }
+            
+            #opening {
+                margin-top: 50px;
+            }
+            
+            .os-close {
+                color: rgb(250, 4, 4);
+            }
+            
+            button {
+                border: 1px solid red;
+                background-color: transparent;
+                border-radius: 50%;
+            }
+            
+            header {
+                height: 150px;
+            }
+            
+            .carousel-inner .img-fluid {
+                margin-top: 0;
+            }
