@@ -178,6 +178,8 @@ img {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
+    height: 20px;
+    width: 30px;
 }
 .fa {
   font-size: 42px;
