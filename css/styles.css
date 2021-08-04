@@ -1,0 +1,21 @@
+#swahili{
+  /*  min-height: 70vh;*/
+    align-items: center;
+  
+  }
+ /* .swahili-pic {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }*/
+  .content{
+    padding: 65px 50px 85px;
+    width: 100%;
+    text-align:center;
+    overflow-x: hidden;
+  }
+  h2{
+    border: 2px solid red;
+    border-radius: 12px;
+  }
