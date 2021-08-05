@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@CheboiDerrick 
-CheboiDerrick
-/
-food-delivery-app
-1
-00
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-food-delivery-app/dishes.html
-@muronjixxl
-muronjixxl fixed images
-Latest commit 3db5af0 32 minutes ago
- History
- 2 contributors
-@muronjixxl@CheboiDerrick
-244 lines (232 sloc)  10.4 KB
- 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,12 +6,58 @@ Latest commit 3db5af0 32 minutes ago
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--stylesheet-->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <header>
-    
+    <nav class="navbar navbar-expand-md  navbar-dark  ">
+        <a class="navbar-brand" href="#">
+            <img src="./images/home/logo.png" class="rounded-circle" alt="#" width="304" height="150">
+        </a>
+
+        <!-- toggle button -->
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon bg-dark"> </span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li class="navbar-item">
+                    <a class="nav-link active" href="#">
+                        <h4 class="title">About us</h4>
+                    </a>
+                </li>
+                <li class="navbar-item"><button>
+                        <a class="nav-link " href="#">
+                            <h4 class="title">Order Now</h4>
+                        </a></button>
+                </li>
+
+
+                <li class="navbar-item ">
+                    <a class="nav-link active" href="#menus">
+                        <h4 class="title"> Contact us</h4>
+                    </a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <h4>Cuisines</h4>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Indian Food</a>
+                        <a class="dropdown-item" href="#">Chinese Food</a>
+                        <a class="dropdown-item" href="#">Ethiopian Food</a>
+                        <a class="dropdown-item" href="#">Swahili Dishes</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
 </header>
 
 <body>
@@ -271,6 +285,68 @@ Latest commit 3db5af0 32 minutes ago
             </div>
         </div>
     </div>
+    <footer class="mt-5" id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6" id="location">
+                    <img src="./images/home/1.jpg" alt="" width="250">
+                    <p>128 6th ave, New york, Ny 10015 united</p>
+                    <p>States,decca-1212</p>
+                    <p>Email: group5moringa@gmail.com</p>
+                    <p>Contact: +254712345678</p>
+
+
+                </div>
+                <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
+                    <h4>Get to Know Us</h4>
+                    <ul>
+                        <li>About Us
+                        </li>
+                        <li>Blog</li>
+                        <li>Socialize</li>
+                        <li>Quickmunch</li>
+                        <li>Perks</li>
+                    </ul>
+                </div>
+                <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
+                    <h4>Let Us Help You</h4>
+                    <ul class="opening-schedule">
+                        <li><span>Account Details </span></li>
+                        <li><span>Order History</span></li>
+                        <li><span> Find restaurant </span></li>
+                        <li><span> Track order</span></li>
+                        <li><span class="os-close">Login</span></li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6" id="hot">
+
+                    <h4>Doing Business</h4>
+                    <ul>
+                        <li>Suggest an Idea
+                        </li>
+                        <li>Be a Partner restaurant</li>
+                        <li>Create an Account</li>
+                        <li>Help</li>
+
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-0"></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f1.png" alt="" height="100px"></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f2.png" alt="" height="100px"></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f3.jpeg" alt="" height="100px"> <br> <span>&copy; 2021 ClickToEat</span></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f4.jpeg" alt="" height="100px"></div>
+                    <div class="col-lg-4 col-md-0"></div>
+                </div>
+            </div>
+
+    </footer>
+
 </body>
 
 </html>
