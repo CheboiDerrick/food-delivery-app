@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .aboutus-title-info {
     text-align: center;
@@ -12,6 +15,7 @@
     top: 0;
     display: flex;
 
+<<<<<<< HEAD
 }
 section.about-heading {
     background-color:rgb(0, 0, 0.25);
@@ -51,6 +55,47 @@ section.about-heading {
     height: 200px;
     width: 150px;
 }
+=======
+}
+section.about-heading {
+    background-color:rgb(0, 0, 0.25);
+    width: auto;
+    display: block;
+    padding: 0.5rem;
+    padding: top;
+    position: sticky;
+    display: flex;
+    /* background-image: url("../images/foods/chinese/past1.jpg"); */
+
+}
+#mission-section {
+    background-color: silver;
+    text-decoration-color: #fff;
+    color: #fff;
+}
+#mission-section h3 {
+    border: red;
+    color: red;
+    
+}
+#choose-us {
+    text-align: center;
+    background-color: silver;
+    align-items: center;
+}
+.learn {
+    text-align: center;
+}
+#management {
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+.card img {
+    height: 200px;
+    width: 150px;
+}
+>>>>>>> origin
 
 .column {
     float: left;
@@ -66,6 +111,7 @@ section.about-heading {
   .button {
     border: none;
     outline: 0;
+<<<<<<< HEAD
     display: inline-block;
     padding: 8px;
     color: white;
@@ -79,12 +125,28 @@ section.about-heading {
   }
   .social > li {
     display: inline-block;
+=======
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #555;
+  }
+  .social > li {
+    display: inline-block;
+>>>>>>> origin
     margin: 0 5px;
   }
   .content-footer {
     color:orange;
     text-align: center;
     background-color: black;
+<<<<<<< HEAD
   }
 =======
 .team-picture-repeater img{
@@ -93,3 +155,6 @@ section.about-heading {
 
 }
 >>>>>>> add modified file
+=======
+  }
+>>>>>>> origin
