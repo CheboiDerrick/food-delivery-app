@@ -1,14 +1,7 @@
 #swahili{
-/*  min-height: 70vh;*/
     align-items: center;
-
 }
-/* .swahili-pic {
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-}*/
+
 .content{
     padding: 65px 50px 85px;
     width: 100%;
@@ -20,6 +13,7 @@ h2{
     border: 2px solid red;
     border-radius: 12px;
 }
+
 hr {
     height: 1px;
     background-color: crimson;
@@ -28,24 +22,30 @@ hr {
 h4 {
     color: red;
 }
+
 #navbardrop {
     color: red;
 }
+
 header {
     height: 150px;
     font-family: Helvetica, sans-serif;
 }
+
 #footer {
     background-color: black;
     color: white;
     font-family: Helvetica, sans-serif;
 }
+
 .list {
     font-family: Helvetica, sans-serif;
 }
+
 body{
     font-family: Helvetica, sans-serif;
 }
+
 .content-section {
     margin: 1em;
 }
@@ -55,6 +55,7 @@ body{
     margin: 0 auto;
     padding: 0 1.5em;
 }
+
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
@@ -138,7 +139,7 @@ body{
     font-size: 1.75em;
 }
 
-.cart-row .btn-danger {
+.btn-primary {
     color: white;
     background-color: #EB5757;
     border: none;
@@ -146,6 +147,10 @@ body{
     font-weight: bold;
 }
 
-.cart-row .btn-danger:hover {
+.content-section {
+    margin: 1em;
+}
+
+.btn-primary:hover {
     background-color: #CC4C4C;
 }
