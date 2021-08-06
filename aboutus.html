@@ -2,345 +2,271 @@
 <html lang="en">
 
 <head>
-  
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-  <!-- Font awesome -->
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Bootstrap Date-Picker Plugin -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-  <!-- Style sheet -->
-  <link rel="stylesheet" href="css/aboutus.css">
-  <title>Click-to-Eat</title>
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="css/aboutus.css">
+    <title>Click-to-Eat</title>
 </head>
 
 <body>
-  <!-- Header -->
-  <header>
-    <nav class="navbar navbar-expand-md  navbar-dark  ">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./images/home/logo.png" class="rounded-circle" alt="#" width="304" height="150">
-        </a>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-md  navbar-dark  ">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/home/logo.png" class="rounded-circle" alt="#" width="304" height="150">
+            </a>
 
-        <!-- toggle button -->
-        <button class="navbar-toggler " data-toggle="collapse" data-target="#collapsibleNavbar">
+            <!-- toggle button -->
+            <button class="navbar-toggler " data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon bg-dark"> </span>
         </button>
-        <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
-            <ul class="navbar-nav ">
-                <li class="navbar-item">
-                    <a class="nav-link active" href="./aboutus.html">
-                        <h4 class="title">About us</h4>
-                    </a>
-                </li>
-                <li class="navbar-item"><button>
+            <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav ">
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="./aboutus.html">
+                            <h4 class="title">About us</h4>
+                        </a>
+                    </li>
+                    <li class="navbar-item"><button id="ordernow1">
                     <a class="nav-link " href="./dishes.html">
                         <h4 class="title">Order Now</h4>
                     </a></button>
-                </li>
-                <li class="navbar-item ">
-                    <a class="nav-link active" href="#footer">
-                        <h4 class="title"> Contact us</h4>
-                    </a>
-                </li>
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link active" href="#footer">
+                            <h4 class="title"> Contact us</h4>
+                        </a>
+                    </li>
 
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        <h4>Cuisines</h4>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./dishes.html#indian">Indian Food</a>
-                        <a class="dropdown-item" href="./dishes.html#chinese">Chinese Food</a>
-                        <a class="dropdown-item" href="./dishes.html#italian">Italian Food</a>
-                        <a class="dropdown-item" href="./dishes.html#swahili">Swahili Dishes</a>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <h4>Cuisines</h4>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="./dishes.html#indian">Indian Food</a>
+                            <a class="dropdown-item" href="./dishes.html#chinese">Chinese Food</a>
+                            <a class="dropdown-item" href="./dishes.html#italian">Italian Food</a>
+                            <a class="dropdown-item" href="./dishes.html#swahili">Swahili Dishes</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+        </nav>
+
+    </header>
+    <hr>
+    <!-- About us -->
+    <section class="about-heading intro-type" id="parallax-one">
+        <div class="container">
+            <div class="row aboutus-title-info">
+                <div class="col-md-12">
+                    <h1>
+                        About Us
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mission -->
+    <div class="our-mission" id="mission-section">
+        <div class="container text-center">
+            <h3>
+                Our Mission
+            </h3>
+            <div class="col-md-12 col-md-offset-8">
+                <div class="red-border">
+                    &nbsp;
+                </div>
+                <p>
+                    Our main mission is to make our visitors’ loyal customers by providing a smooth and easy ordering process of their favourite dish. With delivery tracking options and more. We Deliver seamless online ordering experiences and generate a base of loyal customers
+                    who value our services. Try us today and you will love our services.<br>Our main mission is to make our visitors’ loyal customers by providing a smooth and easy ordering process of their favourite dish. With delivery
+                    tracking options and more. We Deliver seamless online ordering experiences and generate a base of loyal customers who value our services. Try us today and you will love our services.
+                </p>
+
+                <h3>
+                    Our Team.
+                </h3>
+                <p>
+                    Our company is led by group of well discliplined and dedicated employees who ensure our customers are served 24/7. Some of this employees work as chefs, drivers and riders who ensure customer's satisfaction. Behind the team is a dedicated group of officials
+                    who are the face of this company. See the team below:
+                </p>
+                <!-- <a class="ct-u-marginTop60 btn btn-solodev-red btn-fullWidth-sm ct-u-size19" href="#">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Team -->
+    <main>
+        <div class="row " id="card1">
+            <div class="col-lg-3 col-md-6 col-sm-6 col">
+                <div class="card">
+                    <img src="./images/Team/ceo.jpeg" alt="Jeff" style="width:100%">
+                    <div class="container">
+                        <h2>Derrick Cheboi</h2>
+                        <p class="title">CEO & Founder</p>
+                        <p>The brains behind Click-to-Eat and the sole starter of the bussiness.</p>
+                        <p>cheboider.com</p>
+                        <p><button class="button">Contact</button></p>
                     </div>
-                </li>
+                </div>
+            </div>
 
-            </ul>
+            <div class="col-lg-3 col-md-6 col-sm-6 col">
+                <div class="card">
+                    <img src="./images/Team/groth.jpeg" alt="Faith" style="width:100%">
+                    <div class="container">
+                        <h2>Madam Faith</h2>
+                        <p class="title">Director</p>
+                        <p>The director in-charge of managing local and regional affairs.</p>
+                        <p>faith@gmail.com</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
 
-    </nav>
+            <div class="col-lg-3 col-md-6 col-sm-6 col">
+                <div class="card">
+                    <img src="./images/Team/sales.jpeg" alt="Jibril" style="width:100%">
+                    <div class="container">
+                        <h2>Jibril</h2>
+                        <p class="title">Chief Finance Officer</p>
+                        <p>Oversighting all matters regarding finance at Click-to-Eat.</p>
+                        <p>jibril@gmail.com</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
 
-</header>
-<hr>
-  <!-- About us -->
-  <section class="about-heading intro-type" id="parallax-one">
-    <div class="container">
-      <div class="row aboutus-title-info">
-        <div class="col-md-12">
-          <h1>
-            About Us
-          </h1>
+            <div class="col-lg-3 col-md-6 col-sm-6 col">
+                <div class="card">
+                    <img src="./images/Team/ceo1.jpeg" alt="Peter" style="width:100%">
+                    <div class="container">
+                        <h2>Peter</h2>
+                        <p class="title">Chief Marketing Officer</p>
+                        <p>The officer in-charge of all sales and marketing strategies.</p>
+                        <p>peter@gmail.com</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- Mission -->
-  <div class="our-mission" id="mission-section">
-    <div class="container text-center">
-      <h2>
-        WHAT DRIVES US
-      </h2>
-      <h3>
-        Our Mission
-      </h3>
-      <div class="col-md-12 col-md-offset-8">
-        <div class="red-border">
-          &nbsp;
+
+        <!-- Why choose us -->
+        <div class="container-fluid row" style="width: 100%;" id="choose-us">
+
+            <div class="col-lg-2 col-md-4"></div>
+            <div class="col-lg-8 col-md-4">
+                <h3 style="text-decoration-line: underline;">
+                    Why choose us!!!!!!
+                </h3>
+                <h5>
+                    Unparalleled Hospitality
+                </h5>
+                <p class="">
+                    We aim to leave lasting, positive impressions on each and every guest through our fast, legit and available service.
+                </p>
+                <h5>
+                    Ridiculously Affordable
+                </h5>
+                <p class="">
+                    Our Click-to-Eat delivery service is priced very competitively. The least you can get charged is Kes. 50.00 and the most is Kes. 100.00. This is for the actual delivery service and NOT the food you may have ordered.
+                </p>
+                <h5>
+                    Time Management
+                </h5>
+                <p class="">
+                    Our Click-to-Eat website allows our customers to order their food at their convenience. The customers can get their order delivered, they can pick it up themselves or they can dine in. We receive your order on our website and prepare the meal instantly.
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-4 "></div>
         </div>
-        <p>
-          Our main mission is to make our visitors’ loyal customers by providing a smooth and easy ordering process
-          of
-          their favourite dish. With delivery tracking options and more.
-          We Deliver seamless online ordering experiences and generate a base of loyal customers who value our
-          services.
-          Try us today and you will love our services.
-        </p>
-        <!-- <a class="ct-u-marginTop60 btn btn-solodev-red btn-fullWidth-sm ct-u-size19" href="#">Learn More</a> -->
-      </div>
-    </div>
-  </div>
-  <!-- Why choose us -->
-  <div class="container-fluid" style="width: 100%;" id="choose-us">
-    <div class="col-md-8 col-md-offset-12">
-      <h2>
-        Why choose us!!!!!!
-      </h2>
-      <h3>
-        Unparalleled Hospitality
-      </h3>
-      <p class="">
-        We aim to leave lasting, positive impressions on each and every guest through our fast, legit and
-        available
-        service.
-      </p>
-      <h3>
-        Ridiculously Affordable
-      </h3>
-      <p class="">
-        Our Click-to-Eat delivery service is priced very competitively. The least you can get charged is Kes.
-        50.00
-        and the most is Kes. 100.00.
-        This is for the actual delivery service and NOT the food you may have ordered.
-      </p>
-      <h3>
-        Time Management
-      </h3>
-      <p class="">
-        Our Click-to-Eat website allows our customers to order their food at their convenience. The customers can
-        get their order delivered, they can pick it up themselves or they can dine in.
-        We receive your order on our website and prepare the meal instantly.
-      </p>
-    </div>
-  </div>
-  <!-- Customer Review -->
-  <div class="container-fluid" id="CustomerReview">
-    <h2>CustomerReview</h2>
-    <br>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 col ">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./images/home/card1.jpeg.jpeg" alt="Card image cap" height="250px">
-          <div class="card-body">
-            <h5 class="card-title">Kevin Drake</h5>
-            <p class="card-text">“My weaknesses have always been food and thanks to Click-to-Eat.
-            I can now sit and order my tofu while catching a movie</p>
 
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./images/home/card5.jpeg" alt="Card image cap" height="250px">
-          <div class="card-body">
-            <h5 class="card-title">Aliyahh</h5>
-            <p class="card-text">“I know once people get connected to real food, they never change back. Thanks Click-to-Eat”.</p>
 
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./images/home/card3.jpeg" alt="Card image cap" height="250px">
-          <div class="card-body">
-            <h5 class="card-title">Carlos White</h5>
-            <p class="card-text">“If you want to make an order for food online, visit Click-to-Eat website… relax and wait for magic. They are the best.”
-            </p>
-
-          </div>
-        </div>
-      </div>
-
-      <div class=" col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card " style="width: 18rem;  ">
-          <img class="card-img-top " src="./images/home/card6.jpeg" alt="Card image cap " height="250px">
-          <div class="card-body ">
-            <h5 class="card-title ">Terry Ann</h5>
-            <p class="card-text ">“Food brings people together on many different levels. 
-              It’s nourishment of the soul and body; it’s truly love. Thanks Click-to-Eat”.</p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="Learn" href="/">Ready to Learn More?</a>
-  </div>
-  </section>
-
-  <!-- Management -->
-  <div class="container-fluid " id="management">
-    <div class="col-md-8 col-md-12">
-      <h2>
-        MANAGEMENT
-      </h2>
-      <h3>
-        Our Team.
-      </h3>
-      <p>
-        Our company is led by group of well discliplined and dedicated employees who ensure our customers are
-        served
-        24/7.
-        Some of this employees work as chefs, drivers and riders who ensure customer's satisfaction.
-        Behind the team is a dedicated group of officials who are the face of this company. See the team below:
-      </p>
-    </div>
-    <div class="clearfix">
-      &nbsp;
-    </div>
-  </div>
-
-  <!-- Team -->
-  <main>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card">
-          <img src="./images/Team/ceo.jpeg" alt="Jeff" style="width:100%">
-          <div class="container">
-            <h2>Derrick Cheboi</h2>
-            <p class="title">CEO & Founder</p>
-            <p>The brains behind Click-to-Eat and the sole starter of the bussiness.</p>
-            <p>cheboider.com</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card">
-          <img src="./images/Team/groth.jpeg" alt="Faith" style="width:100%">
-          <div class="container">
-            <h2>Madam Faith</h2>
-            <p class="title">Director</p>
-            <p>The director in-charge of managing local and regional affairs.</p>
-            <p>faith@gmail.com</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card">
-          <img src="./images/Team/sales.jpeg" alt="Jibril" style="width:100%">
-          <div class="container">
-            <h2>Jibril</h2>
-            <p class="title">Chief Finance Officer</p>
-            <p>Oversighting all matters regarding finance at Click-to-Eat.</p>
-            <p>jibril@gmail.com</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col">
-        <div class="card">
-          <img src="./images/Team/ceo1.jpeg" alt="Peter" style="width:100%">
-          <div class="container">
-            <h2>Peter</h2>
-            <p class="title">Chief Marketing Officer</p>
-            <p>The officer in-charge of all sales and marketing strategies.</p>
-            <p>peter@gmail.com</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  <!-- <Footer> -->
+    </main>
+    <!-- <Footer> -->
     <footer class="mt-5" id="footer">
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-lg-3 col-md-3 col-sm-6" id="location">
-                  <img src="./images/home/1.jpg" alt="" width="250">
-                  <p>128 6th ave, New york, Ny 10015 united</p>
-                  <p>States,decca-1212</p>
-                  <p>Email: group5moringa@gmail.com</p>
-                  <p>Contact: +254712345678</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6" id="location">
+                    <img src="./images/home/1.jpg" alt="" width="250">
+                    <p>128 6th ave, New york, Ny 10015 united</p>
+                    <p>States,decca-1212</p>
+                    <p>Email: group5moringa@gmail.com</p>
+                    <p>Contact: +254712345678</p>
 
 
-              </div>
-              <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
-                  <h4>Get to Know Us</h4>
-                  <ul>
-                      <li>About Us
-                      </li>
-                      <li>Blog</li>
-                      <li>Socialize</li>
-                      <li>Quickmunch</li>
-                      <li>Perks</li>
-                  </ul>
-              </div>
-              <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
-                  <h4>Let Us Help You</h4>
-                  <ul class="opening-schedule">
-                      <li><span>Account Details </span></li>
-                      <li><span>Order History</span></li>
-                      <li><span> Find restaurant </span></li>
-                      <li><span> Track order</span></li>
-                      <li><span class="os-close">Login</span></li>
-                  </ul>
+                </div>
+                <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
+                    <h4>Get to Know Us</h4>
+                    <ul>
+                        <li>About Us
+                        </li>
+                        <li>Blog</li>
+                        <li>Socialize</li>
+                        <li>Quickmunch</li>
+                        <li>Perks</li>
+                    </ul>
+                </div>
+                <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
+                    <h4>Let Us Help You</h4>
+                    <ul class="opening-schedule">
+                        <li><span>Account Details </span></li>
+                        <li><span>Order History</span></li>
+                        <li><span> Find restaurant </span></li>
+                        <li><span> Track order</span></li>
+                        <li><span class="os-close">Login</span></li>
+                    </ul>
 
 
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6" id="hot">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6" id="hot">
 
-                  <h4>Doing Business</h4>
-                  <ul>
-                      <li>Suggest an Idea
-                      </li>
-                      <li>Be a Partner restaurant</li>
-                      <li>Create an Account</li>
-                      <li>Help</li>
+                    <h4>Doing Business</h4>
+                    <ul>
+                        <li>Suggest an Idea
+                        </li>
+                        <li>Be a Partner restaurant</li>
+                        <li>Create an Account</li>
+                        <li>Help</li>
 
-                  </ul>
-              </div>
-          </div>
-          <br>
-          <div class="container-fluid ">
-              <div class="row ">
-                  <div class="col-lg-4 col-md-0"></div>
-                  <div class="col-lg-1 col-md-4"><img src="./images/home/f1.png" alt="" height="100px"></div>
-                  <div class="col-lg-1 col-md-4"><img src="./images/home/f2.png" alt="" height="100px"></div>
-                  <div class="col-lg-1 col-md-4"><img src="./images/home/f3.jpeg" alt="" height="100px"> <br> <span>&copy; 2021 ClickToEat</span></div>
-                  <div class="col-lg-1 col-md-4"><img src="./images/home/f4.jpeg" alt="" height="100px"></div>
-                  <div class="col-lg-4 col-md-0"></div>
-              </div>
-          </div>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-0"></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f1.png" alt="" height="100px"></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f2.png" alt="" height="100px"></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f3.jpeg" alt="" height="100px"> <br> <span>&copy; 2021 ClickToEat</span></div>
+                    <div class="col-lg-1 col-md-4"><img src="./images/home/f4.jpeg" alt="" height="100px"></div>
+                    <div class="col-lg-4 col-md-0"></div>
+                </div>
+            </div>
 
-  </footer>
+    </footer>
 </body>
 
 </html>
