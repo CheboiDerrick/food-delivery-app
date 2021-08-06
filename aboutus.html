@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Style sheet -->
-  <link rel="stylesheet" href="css/aboutus.css">
+  
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -18,9 +17,65 @@
 
   <!-- Font awesome -->
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <!-- Bootstrap Date-Picker Plugin -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+  <!-- Style sheet -->
+  <link rel="stylesheet" href="css/aboutus.css">
+  <title>Click-to-Eat</title>
 </head>
 
 <body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-md  navbar-dark  ">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./images/home/logo.png" class="rounded-circle" alt="#" width="304" height="150">
+        </a>
+
+        <!-- toggle button -->
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon bg-dark"> </span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li class="navbar-item">
+                    <a class="nav-link active" href="./aboutus.html">
+                        <h4 class="title">About us</h4>
+                    </a>
+                </li>
+                <li class="navbar-item"><button>
+                    <a class="nav-link " href="./dishes.html">
+                        <h4 class="title">Order Now</h4>
+                    </a></button>
+                </li>
+                <li class="navbar-item ">
+                    <a class="nav-link active" href="#footer">
+                        <h4 class="title"> Contact us</h4>
+                    </a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <h4>Cuisines</h4>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./dishes.html#indian">Indian Food</a>
+                        <a class="dropdown-item" href="./dishes.html#chinese">Chinese Food</a>
+                        <a class="dropdown-item" href="./dishes.html#italian">Italian Food</a>
+                        <a class="dropdown-item" href="./dishes.html#swahili">Swahili Dishes</a>
+                    </div>
+                </li>
+
+            </ul>
+
+    </nav>
+
+</header>
+<hr>
   <!-- About us -->
   <section class="about-heading intro-type" id="parallax-one">
     <div class="container">
@@ -225,20 +280,67 @@
     </div>
   </main>
   <!-- <Footer> -->
-  <footer class="content-footer">
-    <p>Kindly get back to us on these social networks:</p>
-    <ul class="social">
-        <li><a class="css-is-deranged" href="">GitHub</a></li>
-        <li><a class="css-is-deranged" href="_https://twitter.com/?lang=en_">Twitter</a></li>
-        <li><a class="css-is-deranged" href="_https://mail.google.com/mail/u/0/#inbox_">Google+</a></li>
-        <li><a class="css-is-deranged" href=" ">Contacts</a></li>
-        <li><a class="css-is-deranged" href="_">Email</a></li>
-    </ul>
-    <div  class="footer-copyright text-center py-3">Copyright © 2021:
-        <a href=""> Click-to-Eat</a>
-    </div>
-  
-</footer>  
+    <footer class="mt-5" id="footer">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6" id="location">
+                  <img src="./images/home/1.jpg" alt="" width="250">
+                  <p>128 6th ave, New york, Ny 10015 united</p>
+                  <p>States,decca-1212</p>
+                  <p>Email: group5moringa@gmail.com</p>
+                  <p>Contact: +254712345678</p>
+
+
+              </div>
+              <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
+                  <h4>Get to Know Us</h4>
+                  <ul>
+                      <li>About Us
+                      </li>
+                      <li>Blog</li>
+                      <li>Socialize</li>
+                      <li>Quickmunch</li>
+                      <li>Perks</li>
+                  </ul>
+              </div>
+              <div class=" col-lg-3 col-md-3 col-sm-6 " id="opening">
+                  <h4>Let Us Help You</h4>
+                  <ul class="opening-schedule">
+                      <li><span>Account Details </span></li>
+                      <li><span>Order History</span></li>
+                      <li><span> Find restaurant </span></li>
+                      <li><span> Track order</span></li>
+                      <li><span class="os-close">Login</span></li>
+                  </ul>
+
+
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6" id="hot">
+
+                  <h4>Doing Business</h4>
+                  <ul>
+                      <li>Suggest an Idea
+                      </li>
+                      <li>Be a Partner restaurant</li>
+                      <li>Create an Account</li>
+                      <li>Help</li>
+
+                  </ul>
+              </div>
+          </div>
+          <br>
+          <div class="container-fluid ">
+              <div class="row ">
+                  <div class="col-lg-4 col-md-0"></div>
+                  <div class="col-lg-1 col-md-4"><img src="./images/home/f1.png" alt="" height="100px"></div>
+                  <div class="col-lg-1 col-md-4"><img src="./images/home/f2.png" alt="" height="100px"></div>
+                  <div class="col-lg-1 col-md-4"><img src="./images/home/f3.jpeg" alt="" height="100px"> <br> <span>&copy; 2021 ClickToEat</span></div>
+                  <div class="col-lg-1 col-md-4"><img src="./images/home/f4.jpeg" alt="" height="100px"></div>
+                  <div class="col-lg-4 col-md-0"></div>
+              </div>
+          </div>
+
+  </footer>
 </body>
 
 </html>

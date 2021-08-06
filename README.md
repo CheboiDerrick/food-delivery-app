@@ -5,7 +5,7 @@
 ## Description: 
 A food delivery web application for the best traditional cuisines.
 
-## Author:
+## Authors:
 * Derrick Cheboi
 * Jibrilhusny Abdikadir
 * Faith Muroji
