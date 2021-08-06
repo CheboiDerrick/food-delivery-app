@@ -27,8 +27,9 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
-    var cartItems = document.getElementsByClassName('cart-items')[0]
+    custLocation=prompt("Enter delivery location")
+    alert('Thank you for your purchase. Your order will arrive at ' + custLocation + ' in 20 minutes')
+    var cartItems = document.getElementsByClassName('cart-row')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
     }
